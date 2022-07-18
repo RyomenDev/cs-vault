@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "01_.C": "cpp",
+        "01_first.C": "cpp",
+        "11_2_else_if.C": "cpp",
+        "11_count_occurance.C": "cpp",
+        "_01_DSA.C": "cpp",
+        "03_ELECTION.C": "cpp",
+        "03_election_in_cheiflands.C": "cpp",
+        "04_Chef_and_Subarrays.C": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "ostream": "cpp",
+        "iomanip": "cpp",
+        "array": "c",
+        "bitset": "c",
+        "initializer_list": "c",
+        "regex": "c",
+        "utility": "c",
+        "valarray": "c",
+        "vector": "c"
+    }
+}

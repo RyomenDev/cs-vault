@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px ;
+    background: url('images/pic2.jpg');
+}
+
+.left{
+    border:2px solid red ;
+}
+
+.mid{
+    border:2px solid rgb(29, 9, 209) ;
+}
+
+.right{
+    border:2px solid rgb(51, 205, 37) ;
+}

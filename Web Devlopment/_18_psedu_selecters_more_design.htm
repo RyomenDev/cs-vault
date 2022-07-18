@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudu Selectors & more designing</title>
+    <style>
+        .container {
+            border: 1px solid red;
+            background-color: rgb(212, 68, 68);
+            padding: 35px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        a{
+            text-decoration: none;/*removes underline from read more*/
+        }
+        a:hover{
+            color: purple;
+            background-color:aqua;
+        }
+        a:active{
+            background-color: gray;
+        }
+        a:visited{
+            background-color: antiquewhite;
+        }
+        .btn{
+            font-variant: small-caps;
+            background-color: yellow;
+            padding: 10px;
+            /*border: 5px solid red;*/
+            border: none;
+            cursor: pointer;
+           /* cursor:crosshair; /*(+)*/
+           font-size: 14px;
+           border-radius:15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h2>heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam eius quaerat rerum officia pariatur
+            dolores voluptates. Vero sint, incidunt sed, dolor ipsam voluptatem voluptatum nobis id quis minima dolorem.
+        </p>
+        <a href="https://github" class="btn">read more</a>
+        <button class="btn">contact more</button>
+    </div>
+</body>
+
+</html>

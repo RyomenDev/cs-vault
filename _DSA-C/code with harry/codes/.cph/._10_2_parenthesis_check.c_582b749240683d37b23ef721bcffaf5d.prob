@@ -1,0 +1,1 @@
+{"name":"Local: _10_2_parenthesis_check","url":"f:\\__CS\\_DSA-C\\code with harry\\codes\\_10_2_parenthesis_check.c","tests":[{"id":1657326137970,"input":"5*9(+6-5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\__CS\\_DSA-C\\code with harry\\codes\\_10_2_parenthesis_check.c","group":"local","local":true}

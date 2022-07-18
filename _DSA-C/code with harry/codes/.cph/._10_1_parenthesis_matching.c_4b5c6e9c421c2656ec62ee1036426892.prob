@@ -1,0 +1,1 @@
+{"name":"Local: _10_1_parenthesis_matching","url":"f:\\__CS\\_DSA-C\\code with harry\\codes\\_10_1_parenthesis_matching.c","tests":[{"id":1657208519793,"input":"15\n3*(5+5(5-3)+2)","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\__CS\\_DSA-C\\code with harry\\codes\\_10_1_parenthesis_matching.c","group":"local","local":true}

@@ -1,0 +1,49 @@
+
+********** C_LANGUAGE ********
+developed by DENNIS RITCHIE(1972)
+
+KEYWORDS
+
+auto        double      int     struct
+break       long        else    switch
+case        return      enum    typedf
+char        register    exterm  union
+const       short       float   unsigned
+contnue     signed      for     void
+default     sizeof      goto    volatile
+do          static      if      while
+
+********************
+
+opeartor
+
+% ----> return remainder,
+       module division opeartor,
+       cannot be applied on float or double.
+
+arithmetic operation between:
+int & int =int
+int and float = float
+float & float=float
+
+operator precidence in C
+priority        operators
+  1st           
+  2nd           * / %
+  3rd           + -  
+  4th           < > , <= , >=
+  5th           ==  !=
+  6th           &&
+  7th           ||
+  8th           =
+  **********************
+relational operators in C
+==      equals(for equality check)
+!=      not equal to
+&&      and
+||      or
+
+!       return true if given false
+        and false if given true
+eg.   !(3==3) ---->  false
+      !(3>30) ---->  true
