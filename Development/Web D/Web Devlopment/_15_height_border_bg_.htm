@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,width,borders and backgronds</title>
+    <style>
+        #para1 {
+            background-color: red;
+            height: 50px;
+            width: 150px;
+            border-width: 4px;
+            /*  border-color: green;
+            border-style: solid;
+            border-radius: 15px; */
+            border-top: 10px solid blue;
+            border-bottom: 30px solid rgb(9, 244, 21);
+            border-left: 20px solid rgb(201, 165, 21);
+            border-right: 20px solid rgb(186, 28, 214);
+            border-top-left-radius: 14px;
+            border-top-right-radius: 24px;
+
+        }
+
+        #para3 {
+            height: 800px;
+            width: 700px;
+            /* background-image: img src="Remini20210508170821817.jpg" height="400px" width="600px" alt="error loading image"; ----- not working*/
+            /*  background-image: url('Remini20210508170821817.jpg');*/
+            background-image: url('https://images.unsplash.com/photo-1640033809641-b44037128681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80');
+            border: 5px solid red;
+            /* background-repeat: repeat-x; --- only x-axus repeat*/
+            /*background-repeat: repeat-y; --- only y-axis repeat*/
+            background-repeat: no-repeat;
+            background-position: center;
+            /* center top,top top,lest,top left,etc      ____________       192px 34px;*/
+        }
+    </style>
+</head>
+
+<body>
+    <h2>this is heading</h2>
+    <p id="para1">this is a paragraph</p>
+    <p id="para3">this is third paragraph.</p>
+</body>
+
+</html>

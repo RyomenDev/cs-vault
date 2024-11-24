@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+        p {
+            /*element selecter*/
+            color: red;
+            border: 15px solid rgb(218, 162, 162);
+        }
+
+        #secpra {
+            /*ID selecter*/
+            color: green;
+            background-color: antiquewhite;
+        }
+
+        /* id prepfered over class , both over normal*/
+        .redel {
+            /*class selecter*/
+            color: red;
+        }
+
+        .bg {
+            background-color: yellow;
+        }
+        footer,span { /*grouping selecter*/
+           color: blue;
+           background-color: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Selecters</h2>
+    <p id="frstpra"> this is a simple paragraph to demonstrate css selecters.</p>
+    <p id="secpra" class="redel"> this is a simple another paragraph to demonstrate css selecters.</p>
+    <div>
+        <p id="thirdpra" class="redel bg"> this is a simple another paragraph to demonstrate css selecters.</p>
+        <span>this is a span</span>
+        <footer>this is a footer.</footer>
+    </div>
+</body>
+
+</html>
+
+<!-- to find the elements whose property will be set.
+to target html elements.
+make it easy for us to easily target single/multiple html elements in the markup. -->
+
+<!-- types- element selecter
+        id selecter
+        class selecter
+        grouping selecter -->

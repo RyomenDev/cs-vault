@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 4px solid purple;
+            margin: auto;
+            margin: 30px auto;
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 5px;
+            padding: 12px 4px;
+            background: lightblue;
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+       #computer {
+            float: left;
+            width: 48%;
+        }
+
+         #stationary {
+             clear: both;/*left,right*/
+            /*float: left; /*take out of the border bound*/
+            width: 100%;
+        }
+        p,h3{
+            text-align: left;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 tex>Welcome to the Store.</h1>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>fruit.</h3>
+            <p id="first" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat asperiores
+                aliquid deserunt
+                provident architecto voluptatibus illum! Assumenda maiores et blanditiis perspiciatis! Voluptate
+                praesentium
+                vel, sint incidunt perspiciatis sapiente ipsam quis.
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer.</h3>
+            <p id="second" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat asperiores
+                aliquid deserunt
+                provident architecto voluptatibus illum! Assumenda maiores et blanditiis perspiciatis! Voluptate
+                praesentium
+                vel, sint incidunt perspiciatis sapiente ipsam quis.
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="third" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat asperiores
+                aliquid deserunt
+                provident architecto voluptatibus illum! Assumenda maiores et blanditiis perspiciatis! Voluptate
+                praesentium
+                vel, sint incidunt perspiciatis sapiente ipsam quis.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+
+HTML links are defined with the <a> tag:
+Example
+<a href="https://www.w3schools.com">This is a link</a>
+
+HTML Images
+HTML images are defined with the <img> tag.
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+Example
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+The required alt attribute for the <img> tag specifies an alternate text for an image
+
+
+Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property:
+Example
+<h1 style="font-size:60px;">Heading 1</h1>
+
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+<b> - Bold text
+<strong> - Important text-->typically displayed in bold.
+<i> - Italic text
+<em> - Emphasized text-->typically displayed in italic.
+<mark> - Marked text-->element defines text that should be marked or highlighted:
+<small> - Smaller text
+<del> - Deleted text -->Browsers will usually strike a line through deleted text:
+<ins> - Inserted text -->Browsers will usually underline inserted text:
+<sub> - Subscript text-->appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
+<sup> - Superscript text-->appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+
+
+HTML Quotation and Citation Elements
+
+<blockquote>
+The HTML <blockquote> element defines a section that is quoted from another source.
+Browsers usually indent <blockquote> elements.
+<q>
+The HTML <q> tag defines a short quotation.
+Browsers normally insert quotation marks around the quotation.
+
+<abbr>, <address>, <cite> <bdo> 

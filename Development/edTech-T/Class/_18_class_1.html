@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border-radius: 100px;
+            box-shadow: 10px 10px 10px black;
+        }
+
+        #a {
+            color: rgb(237, 229, 229);
+            background-color: black;
+            margin-top: 75px;
+            border-radius: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <H1 id="b">
+            <button id="a" onclick="change()">Click HERE!!</button>
+        </H1>
+        <script>
+            function change() {
+                let r = Math.floor(Math.random() * 255);
+                let g = Math.floor(Math.random() * 255);
+                let b = Math.floor(Math.random() * 255);
+
+                let color = "rgb(" + r + "," + g + "," + b + ")"
+                // document.write(color);
+
+                // document.getElementById("a").style.background = color
+                // document.getElementsByTagName("H1")[0].style.background = color;
+
+                // document.querySelector("#b").style.background=color
+                document.querySelector("body").style.background=color
+            }
+        </script>
+    </div>
+</body>
+
+</html>

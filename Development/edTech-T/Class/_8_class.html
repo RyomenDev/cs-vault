@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #a{grid-area: a1 }
+        #b{grid-area: b1 }
+        #c{grid-area: c1 }
+        #d{grid-area: d1 }
+        #e{grid-area: e1 }
+
+        #mainDiv{
+            /* display: grid; */
+            /* grid-template-areas: 'a1 a1 a1 a1 a1 a1 '' b1 b1 b1 c1 c1 c1''d1 d1 d1 e1 e1 e1'; */
+            display: flex;
+            flex-wrap:wrap;
+            flex-direction: row;
+            text-align: center;
+            color: aliceblue;
+            background-image: url(img1.jpg);
+            background-size: cover;
+            margin: 30px;
+            padding: 30px;
+        }
+        div{
+            background-color: blue;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainDiv">
+        <!-- <video src=""></video> -->
+        <!-- <audio src=""></audio> -->
+        <div id="a">Home</div>
+        <div id="b">About</div>
+        <div id="c">Link</div>
+        <div id="d">Events</div>
+        <div id="e">Support</div>
+        <div id="a">Home</div>
+        <div id="b">About</div>
+        <div id="c">Link</div>
+        <div id="d">Events</div>
+        <div id="e">Support</div>
+        <div id="a">Home</div>
+        <div id="b">About</div>
+        <div id="c">Link</div>
+        <div id="d">Events</div>
+        <div id="e">Support</div>
+    </div>
+</body>
+</html>
+

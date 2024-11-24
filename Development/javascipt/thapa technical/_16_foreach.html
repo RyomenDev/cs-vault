@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>List all array items with keys and values.</p>
+    <p id="demo"></p>
+
+    <script>
+        var fruits=["apple","orange","cherry"];
+        fruits.forEach(myFunction);
+        function myFunction(item,index) {
+            document.getElementById("demo").innerHTML+=index+":"+item+"<br>";
+        };
+    </script>
+</body>
+</html>

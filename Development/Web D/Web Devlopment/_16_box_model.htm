@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;/*width:help to remove constant irrespective of padding and margin*/
+            margin: 0;
+            padding: 0;
+
+        }
+        .container {
+            background-color: bisque;
+            border: 4px solid rebeccapurple;
+            /*padding: 20px;*/
+            /* padding-left: ; padding-top;etc;*/
+            /* padding: 25px 80px 120px 50px; /*top,right,bottom,left*/
+            padding: 25px 80px;
+            /*y(top/bottom);x(left/right);*/
+            /*margin: 30px;*/
+            margin: 14px 20px; /*top bottom,left,right*/
+            border-radius: 30px;
+            width: 250px;
+            /*box-sizing: border-box;*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>this is the heading.</h3>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat asperiores aliquid deserunt
+            provident architecto voluptatibus illum! Assumenda maiores et blanditiis perspiciatis! Voluptate praesentium
+            vel, sint incidunt perspiciatis sapiente ipsam quis.
+        </p>
+    </div>
+    <div class="container">
+        <h3>this is the heading.</h3>
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat asperiores aliquid deserunt
+            provident architecto voluptatibus illum! Assumenda maiores et blanditiis perspiciatis! Voluptate praesentium
+            vel, sint incidunt perspiciatis sapiente ipsam quis.
+        </p>
+    </div>
+    <div class="container">
+        <h3>this is the heading.</h3>
+        <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat asperiores aliquid deserunt
+            provident architecto voluptatibus illum! Assumenda maiores et blanditiis perspiciatis! Voluptate praesentium
+            vel, sint incidunt perspiciatis sapiente ipsam quis.
+        </p>
+    </div>
+</body>
+
+</html>

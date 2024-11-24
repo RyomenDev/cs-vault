@@ -1,0 +1,43 @@
+
+/*   class and id are more specific so they are preferred over
+single id - unique
+multiple classes  
+elemnet can have multiple class but single id*/
+
+
+        body {
+       background-color:rgb(119, 234, 242);
+        }
+
+        hr {
+            /* background-color: grey; */
+            border-style: dotted none none;  /* 1- to all four; 2- first top & bottom second left and right ; 3- top left right bottom; 4-top right bottom left */
+            /* height: 3px; */
+            /*border-style: none ; border-top-style:dotted*/
+            width:10%;   /* <!--30% of page--> */
+            border-width:5px;
+            
+        } 
+
+        h1 {
+            color: rebeccapurple;
+        }
+
+        h3 {
+            color: rebeccapurple;
+        }
+
+        .edu {
+            /* background-color: rgb(130, 86, 28); */
+            background: red;
+        }
+
+        #heading {
+            background-color: chartreuse;
+        }
+
+        /* psedu class */
+
+        h1:hover {
+            background: red;
+        }

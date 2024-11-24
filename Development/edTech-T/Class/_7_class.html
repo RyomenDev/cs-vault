@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-image:linear-gradient(120deg,red,blue,yellow,green);
+        }
+        #box{
+            /* background-color:rgb(50, 238, 50); */
+            width: 200px;
+            height: 200px;
+            text-indent: 100px;
+            animation-name: anim;
+            animation-duration: 5s;
+            animation-delay: 2sec;
+            animation-iteration-count: infinite;
+        }
+        /*animation*/
+        @keyframes anim{
+            /* from{background-color: aqua;}to{
+                background-color: yellow;} */
+                20%{background-color: rebeccapurple;position:relative;left: 0px;top: 0px;transform: rotate(0);}
+                40%{background-color: rgb(46, 224, 78);position:relative;left:200px;top: 200px;transform: rotate(90deg)}
+                60%{background-color: rgb(213, 99, 28);position:relative;left:400px;top: 0px;transform: rotate(180deg)}
+                80%{background-color: rgb(223, 204, 32);position:relative;left:600px;top: 200px;transform: rotate(270deg)}
+                /* 99%{background-image: url(img1.jpg); background-size:cover;position:relative;left:800px;top:0px;} */
+                
+        }
+    </style>
+</head>
+<body>
+    <div id="box">hello</div>
+</body>
+</html>

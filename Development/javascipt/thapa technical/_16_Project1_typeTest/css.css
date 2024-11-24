@@ -1,0 +1,52 @@
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.mainDiv {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(224, 151, 49);
+}
+
+/* making centre div in centre of mainDiv  */
+
+.centerDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: aquamarine;
+    text-shadow: 1px 2px 3px crimson;
+    font-size: 2.1rem;
+}
+
+h2{
+    text-align: center;
+}
+
+textarea{
+    background-color: bisque;
+    /* box-shadow: 0 0 1px rgba(rgb(229, 45, 45), rgb(24, 227, 24), rgb(40, 40, 224), alpha); */
+    box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    border-radius: 10px 10px 0 0;
+    border: 20px solid rebeccapurple;
+    color: rgb(233, 14, 18);
+}
+
+.mainbtm{
+    padding: 10px 20px;
+    border-radius: 20px; 
+    border: 5px solid green;
+    background: lightcoral;
+    font-size: 1rem;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive-design</title>
+    <style>
+        html {
+            font-size: 20px;
+        }
+
+        .container {
+            width: 100vw;   /*viewport width*/
+            height: 100vh;
+            font-size: 5px;
+            border: 3px solid blue;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #first {
+            font-size: 5em;
+            /*5px X 5 = 25px*/
+            /*em= relative to parent size*/
+            padding: 3em;
+            /*5px X 5 X 3 = 75px --> 3 times of font size*/
+        }
+
+        #second {
+            font-size: 3rem;
+            /*60px*/
+            padding: 3rem;
+            /*relative to base size*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="first">this is first heading</h1>
+        <h1 id="second">this is first heading</h1>
+        <h1 id="third">this is first heading</h1>
+        <h1 id="fourth">this is first heading</h1>
+    </div>
+
+</body>
+
+</html>
+
+<!-- ways to make a website responsive -->
+<!-- 1.setting up the viewport
+2.using max-width/max-height
+3.using css media queries
+4.using rem/vh/vw units over pixels
+  em= relative to parent size -->

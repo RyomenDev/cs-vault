@@ -1,0 +1,35 @@
+<!-- DOM -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1 id="a">Introduction_1</h1>
+        <!-- DOM Events  -->
+        <button onclick="change()">Click Here!!</button>
+        <h1 class="c">Introduction_2</h1>
+        <h1>Introduction_3</h1>
+
+        <script>
+            function change() {
+                document.getElementById("a").innerHTML = "Introduction to DOM"
+                //[0] -  default innerHTML[0]
+                a.style.background="blue"
+            }
+
+            document.getElementsByClassName("c")[0].innerHTML = "Introduction to Dom events"
+
+            document.getElementsByTagName("h1")[2].innerHTML = "Welcome"
+            //[2] which tag name
+
+        </script>
+    </div>
+</body>
+
+</html>

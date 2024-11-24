@@ -1,0 +1,15 @@
+{
+  "name": "2_npm",
+  "version": "1.0.0",
+  "description": "From tut of thapa tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vatsh",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "validator": "^13.11.0"
+  }
+}

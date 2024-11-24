@@ -1,0 +1,33 @@
+body{
+    /* background-color:rgb(207, 177, 237); */
+    background-image:url(img1.jpg);
+}
+#a {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.c {
+    background-color: aquamarine;
+    text-align: center;
+}
+.b{
+    /*box model */
+    margin: 120px 120px; /*page and border*/
+    border: 7px 7px;
+    border-style:double;
+    border-color: blue;
+    padding: 50px 20px;  /* border and content */
+    border-radius: 70px;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+    background-image: linear-gradient(120deg, red,white,blue,green);
+    text-align: center;
+    margin: 200px;
+    padding: 50px;
+    border-radius: 200px;
+}

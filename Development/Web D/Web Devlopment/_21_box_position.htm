@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postion float sticky</title>
+    <style>
+        .container {
+            border: 3px solid red;
+            background-color: lightgreen;
+        }
+
+        .box {
+            display: inline-block;
+            border: 4px solid rebeccapurple;
+            width: 150px;
+            height: 150px;
+            margin: 3px;
+        }
+
+        #box3 {
+            /* default position: static;*/
+            /* position: absolute;*/
+            /*relative to the position of its first element
+            /* position:relative; /*relative to its normal position and will leave a gap at its normal position*/
+
+            /*  top: 34px;
+           /* left: 74px;*/
+           /* position: fixed;
+            /* as specifies*/
+           /* right: 34px;
+            bottom: 34px;*/
+            position: sticky;
+            top: 34px;
+
+        }
+
+        /* #box2{
+          /* default position: static;
+          position: absolute; /*relative to the position of its first element
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+
+</body>
+
+</html>
