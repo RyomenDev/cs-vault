@@ -1,0 +1,1 @@
+{"name":"Local: _14_set_problem","url":"c:\\_Vatsh\\_Blossom\\_CS-master\\_Dsa\\Stl\\_14_set_problem.cpp","tests":[{"id":1678931798096,"input":"8\nabc\ndef\nabc\nghj\njkl\nghj\nghj\nabc","output":"abc\ndef\nghj\njkl"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\_Vatsh\\_Blossom\\_CS-master\\_Dsa\\Stl\\_14_set_problem.cpp","group":"local","local":true}

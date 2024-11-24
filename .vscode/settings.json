@@ -18,6 +18,8 @@
         "regex": "c",
         "utility": "c",
         "valarray": "c",
-        "vector": "c"
-    }
+        "vector": "c",
+        "*.tcc": "cpp"
+    },
+    "livePreview.defaultPreviewPath": "/_teahnook/_9_class_3.html"
 }

@@ -1,0 +1,28 @@
+// notation to write an notation.
+
+/*
+infix   1) a+b  2) p/q
+
+prefix  <operator> <operant1> <operand 2>  --> +a b  ; *pq
+
+postfix  <operand> <operand> <operator>  ab- ; ab /
+
+infix        postfix        prefix
+a*(b+c)*d    abc+*d*
+            a(bc+)*d* = (ax*)d* = (zd*)
+
+infix --> prefix   x-y*z
+1) parenthesize the expression
+(x-(y*z)) --> (x-[*yz]) --> -x*a   a=yz
+
+infix --> postfix   x-y*z
+1) parenthesize the expression
+(x-(y*z)) --> (x-[yz*]) --> xa*-   a=yz
+
+infix --> prefix  --> postfix  p-q-r/s
+p-q-(r/s)  --> (p-q)-a , a=/rs  --> b-a , b=-pq --> -ba --> --pq/rs
+
+p-q-(r/s)  --> (p-q)-a , a=rs/  --> b-a , b=pq- --> ba- --> pq-rs/
+ */
+
+

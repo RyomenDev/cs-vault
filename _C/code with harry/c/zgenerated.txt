@@ -1,2 +1,0 @@
-the number is 45
-thanks for using fprintf

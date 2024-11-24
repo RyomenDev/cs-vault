@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - favourite Songs</title>
+
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/mid.css">
+
+
+
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="media/spotify-logo.png" alt="Spotify" class="">Spotify</li>
+
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- Mid -->
+
+    <div class="container">
+
+        <div class="songlist">
+            <h1>Best of NCS - No copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <!-- <img src="media/cover/cover1.jpg" alt="cover"> -->
+                    <img alt="cover">
+                    <span class="songName">Pirates Song</span>
+                    <span class="songlistplay"><span class="timestamp">02:53 <i id="1"
+                                class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="cover">
+                    <span class="songName">Everything At Once</span>
+                    <span class="songlistplay"><span class="timestamp">02:42 <i id="2"
+                                class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="cover">
+                    <span class="songName">Game of Thrones</span>
+                    <span class="songlistplay"><span class="timestamp">05:05 <i id="3"
+                                class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="cover">
+                    <span class="songName">Harry Potter - The Ultimate Indian Theme</span>
+                    <span class="songlistplay"><span class="timestamp">02:36 <i id="4"
+                                class="fas songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+
+        </div>
+    </div>
+
+    <!--bottom part-->
+
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+            <!-- <i class="fa-regular fa-backward"></i>
+            <i class="fa-regular fa-play-pause"></i>
+            <i class="fa-light fa-forward"></i> -->
+        </div>
+        <div class="songInfo">
+            <img src="media/Yzg5.gif" width=40px alt="gif" id="gif"> <span id="masterSongName"></span>
+            <!-- Song -->
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+    <script src="https://kit.fontawesome.com/cc71d501f3.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"></script>
+
+</body>
+
+</html>
+
+<!-- 1:22:00-->

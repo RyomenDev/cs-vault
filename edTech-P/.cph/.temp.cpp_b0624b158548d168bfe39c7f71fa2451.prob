@@ -1,0 +1,1 @@
+{"name":"Local: temp","url":"c:\\_Vatsh\\_Blossom\\_P_\\temp.cpp","tests":[{"id":1717322189584,"input":"1\n3 3\n0 1 5\n1 2 3\n0 2 1","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\_Vatsh\\_Blossom\\_P_\\temp.cpp","group":"local","local":true}

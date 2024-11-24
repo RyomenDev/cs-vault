@@ -1,0 +1,133 @@
+{
+    "Print to console": {
+        "prefix": "cpp (c++) boilerplate code",
+        "body": [
+            "// https://oeis.org/ To find the PATTERN",
+            "// https://devdocs.io/",
+            "#include<bits/stdc++.h>",
+            "using namespace std; ",
+            "#define int long long ",
+            "#define ld long double ",
+            "#define endl \"\\n\"",
+            // constants
+            //"//  ------constants-----",
+            "#define MOD 1000000007 // 1e9",
+            "#define PI 3.1415926535897932384626",
+            "const int INF = 1e18;",
+            "",
+            // Pair
+            //"// ---------Pair----------",
+            "#define pr(a,b) pair<a,b>",
+            // Vector
+            //"// ----------Vector----------",
+            "#define vec(a) vector<a>",
+            "#define vv(a) vector<vector<a>>",
+            // Map
+            //"// ----------Map----------",
+            "#define ump(a,b) unordered_map<a, b>",
+            "#define mp(a,b) map<a, b>",
+            // set
+            //"// ----------Set----------",
+            "#define uset(a) unordered_set<a>",
+            "#define oset(a) set<a>",
+            "",
+            // other sort_forms
+            "#define F first",
+            "#define S second",
+            "#define pb emplace_back",
+            "#define all(x) x.begin(), x.end()",
+            "#define sortall(x) sort(all(x))",
+            // Macro Definition:
+            //"// ! Macro Definition:",
+            "#define For(a, b, c) for (auto(a) = (b); (a) < (c); ++(a))",
+            "#define ForR(a, b, c) for (auto(a) = (b-1); (a) >= (c); --(a))",
+            "#define ForEach(a, b) for (auto&(a) : (b))",
+            "#define ReSet(a, b) memset(a, b, sizeof(a))",
+            "",
+            //----------------------- functions--------------------------
+            "// ! ----------------------- functions--------------------------",
+            //"",
+            //Modular exponentiation O(logN)
+            "//! Modular exponentiation O(logN)",
+            "int power(int a, int b) {",
+            "    if (b == 0) return 1;",
+            "    a %= MOD; int half_power = power(a, b / 2); // power(a,b/2) will always be < MOD",
+            "    if (!(b & 1))  return half_power * half_power % MOD;// if even",
+            "    else return half_power * half_power % MOD * a % MOD; // if odd",
+            "}",
+            "",
+            // gcd Recursive: Euclidean Algorithm 
+            //"// ! gcd Recursive: Euclidean Algorithm O(logN)! worst case : Fibonacci numbers",
+            "int GCD(int a, int b) {if (a == 0)  return b; return GCD(b % a, a);} //(b,a%b)",
+            "",
+            // LCM
+            //"// ! LCM O(logN)",
+            "int LCM(int a, int b) { return (a * b) / GCD(a, b); }",
+            "",
+            // Modular Multiplicative Inverse (alias for modInverse)
+            "// ! Modular Multiplicative Inverse (alias for modInverse) O(logN)",
+            "int MMI(int a) { return power(a, MOD - 2); }",
+            "",
+            //Binary Search
+            "//^ Binary Search",
+            "bool predicateBinary(int mid,vec(int) &nums, int target) {return true;}",
+            //"",
+            "// T(-1) || T(1) T ... F F || F(n)",
+            "int binarySearch(vec(int) &nums, int target) {",
+            "    int min = 0, max = nums.size() - 1;",
+            "    int left = min - 1, right = max + 1; // -1 to n -> exclusive",
+            "    while (right - left > 1) {// while not empty range",
+            "        int mid = left + (right - left) / 2;",
+            "        predicateBinary(mid,nums,target) ? left = mid : right = mid;",
+            "    }",
+            "    // ans : last true {left} or first false{right}",
+            "return left;",
+            "}",
+            "",
+            //graph
+            //"// ^ graph",
+            // graph-Directions
+            "// & graph-Directions",
+            "#define graph8Dir vec(pr(int,int)){{1, 0}, {-1, 0}, {0, 1}, {0, -1}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}}",
+            "#define graph4Dir vec(pr(int,int)){{1, 0}, {-1, 0}, {0, 1},  {0, -1}}",
+            "",
+            // To solve
+            "int solve() {",
+            "    $2",
+            "    return 1;",
+            "}",
+            "",
+            // Input field
+            "void Vatsh() {",
+            "    // Your logic goes here",
+            "    int n;",
+            "    cin >> n;",
+            "    vec(int) v(n);",
+            "    For (i,0,n)",
+            "        cin >> v[i];",
+            "    cout << solve() << endl;",
+            "}",
+            "",
+            // Main function
+            "int32_t main() {",
+            "    ios_base::sync_with_stdio(0);",
+            "    cin.tie(0);",
+            "    cout.tie(0);",
+            "",
+            "    // #ifndef ONLINE_JUDGE",
+            "        // freopen(\"input.txt\", \"r\", stdin);",
+            "        // freopen(\"output.txt\", \"w\", stdout);",
+            "        // freopen(\"output.txt\", \"w\", stderr);",
+            "    // #endif",
+            "",
+            "    int tt = 1;",
+            "    $1cin >> tt;",
+            "    while (tt--)",
+            "        Vatsh();",
+            "",
+            "    return 0;",
+            "}"
+        ],
+        "description": "boiler output of cpp(c++) program"
+    }
+}

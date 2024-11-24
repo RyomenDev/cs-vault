@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap');
+body {
+    background-color: rgb(209, 248, 235);
+    font-family:'Montserrat';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

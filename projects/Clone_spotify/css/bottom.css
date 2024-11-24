@@ -1,0 +1,36 @@
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: rgb(55, 46, 60);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 24px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left :10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+    /* text-align: centre; */
+}

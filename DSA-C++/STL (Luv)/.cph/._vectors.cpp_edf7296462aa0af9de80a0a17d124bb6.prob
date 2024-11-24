@@ -1,0 +1,1 @@
+{"name":"Local: _vectors","url":"c:\\__Vatsh\\_Blossom\\_CS-master\\_Dsa\\Stl\\_vectors.cpp","tests":[{"id":1676873523184,"input":"5\n1 2 3 4 5","output":"size=5\n1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\__Vatsh\\_Blossom\\_CS-master\\_Dsa\\Stl\\_vectors.cpp","group":"local","local":true}
